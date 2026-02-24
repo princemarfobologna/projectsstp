@@ -13,6 +13,7 @@ import {
   Zap,
   ChevronLeft,
   Menu,
+  BookOpen,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
@@ -23,6 +24,7 @@ const navigation = [
   { name: "Sessions", href: "/dashboard/sessions", icon: Activity },
   { name: "Users", href: "/dashboard/users", icon: Users },
   { name: "Settings", href: "/dashboard/settings", icon: Settings },
+  { name: "Setup Guide", href: "/dashboard/setup", icon: BookOpen },
 ]
 
 export function Sidebar() {
